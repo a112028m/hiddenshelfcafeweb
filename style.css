@@ -337,7 +337,7 @@ header .navbar {
 .About-Section .section-content .about-hsc .hsc-description {
     text-align: center;
     color: #4E220F;
-    width: 20rem;
+    width: 25rem;
 }
 
 .About-Section .section-content .about-hsc .hsc-description::after {
@@ -578,5 +578,11 @@ header .navbar {
     }
     .GiftCorner-section .GiftCorner-list .GiftCorner-item .GiftCorner-image:hover {
         transform: scale(1.1);
+    }
+
+    .About-Section .section-content .about-hsc .hsc-description {
+        text-align: center;
+        color: #4E220F;
+        width: 20rem;
     }
 }
