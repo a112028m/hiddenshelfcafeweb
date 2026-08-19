@@ -581,8 +581,6 @@ header .navbar {
     }
 
     .About-Section .section-content .about-hsc .hsc-description {
-        text-align: center;
-        color: #4E220F;
-        width: 20rem;
+        width: 20rem !important;
     }
 }
