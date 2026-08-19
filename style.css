@@ -81,6 +81,11 @@ header .navbar {
     background-color: #B0BA99;
 }
 
+.active {
+    color: #F7F1DE !important;
+    background-color: #B0BA99;
+}
+
 .navbar .nav-logo .logo-text {
     display: flex;
     align-items: center;
