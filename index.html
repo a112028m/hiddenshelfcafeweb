@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CafeWebsite</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Miniver&display=swap">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="#" class="nav-logo">
+                <h2 class="logo-text">
+                    <img src="images/HiddenShelfCafeLogo.png.png" class="logo-img">
+                    Hidden Shelf Café
+                </h2>
+            </a>
+            <ul class="nav-menu">
+                <button id="menu-close-button" class="fas fa-times"></button>
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu" class="nav-link">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#giftcorner" class="nav-link">Gift-Corner</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contacts" class="nav-link">Contacts</a>
+                </li>                
+            </ul>
+            <button id="menu-open-button" class="fas fa-bars"></button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero-section" id="home">
+            <div class="section-content">
+                <div class="hero-details">
+                    <h2 class="title">Warm Coffee</h2>
+                    <h3 class="subtitle">More than coffee, A place to stay</h3>
+                    <p class="description">The Hidden Shelf Café is a cozy and peaceful café that offers quality coffee, refreshing drinks, delicious food, and a comfortable place to relax.</p>
+
+                    <div class="buttons">
+                        <a href="#" class="button order-now">Order Now</a>
+                        <a href="#about" class="button about-us">About Us</a>
+                    </div>
+                </div>
+                <div class="hero-image-wrapper">
+                    <img src="images/HiddenShelfCafeLogo.png.png" class="hero-image">
+                </div>
+            </div>
+        </section>
+
+        <section class="menu-section" id="menu">
+            <h2 class="section-title">Menu</h2>
+            <div class="section-content">
+                <ul class="menu-list">
+                    <li class="menu-item">
+                        <img src="images/coffee.png" class="menu-image">
+                        <h3 class="name">Coffee</h3>
+                        <p class="text">Expertly crafted espresso blends, smooth cold brews, and classic café favorites. Perfectly balanced to fuel your day or your next great read.</p>
+                    </li>
+                    <li class="menu-item">
+                        <img src="images/non-coffee.png" class="menu-image">
+                        <h3 class="name">Non-Coffee</h3>
+                        <p class="text">Rich chocolates, premium matcha, and creamy flavored milks. Perfectly crafted comfort drinks for those looking for a delicious, coffee-free escape..</p>
+                    </li>
+                    <li class="menu-item">
+                        <img src="images/frappes.png" class="menu-image">
+                        <h3 class="name">Frappes</h3>
+                        <p class="text">Thick, ice-blended treats topped with mountains of whipped cream and premium toppings. The ultimate sweet, icy indulgence.</p>
+                    </li>
+                    <li class="menu-item">
+                        <img src="images/snacks.png" class="menu-image">
+                        <h3 class="name">Snacks</h3>
+                        <p class="text">Crispy, golden bites, fresh salads, and savory toasted sandwiches. Perfect for a quick mid-day fuel-up or sharing with friends.</p>
+                    </li>
+                    <li class="menu-item">
+                        <img src="images/dessertsnsweets.png" class="menu-image">
+                        <h3 class="name">Desserts & Sweets</h3>
+                        <p class="text">Warm, sweet, and comforting baked treats. Handcrafted to perfectly complement your favorite warm brew or sweet frappe.</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="GiftCorner-section" id="giftcorner">
+            <h2 class="section-title">Gift-Corner</h2>
+            <div class="section-content">
+                <ul class="GiftCorner-list">
+                    <li class="GiftCorner-item">
+                        <img src="images/BraceletCharm.png" class="GiftCorner-image">
+                        <h3 class="name">Bracelets</h3>
+                        <p class="text">Charmed, beaded, and matching friendship bracelets. Handcrafted, aesthetic wristwear made to celebrate connections and personal style.</p>
+                    </li>
+                    <li class="GiftCorner-item">
+                        <img src="images/InitialKeychains.png" class="GiftCorner-image">
+                        <h3 class="name">Keychains & Charms</h3>
+                        <p class="text">Personalized initial pieces, crystal-clear acrylics, and playful phone charms. The perfect aesthetic accessory to personalize your bags and keys.</p>
+                    </li>
+                    <li class="GiftCorner-item">
+                        <img src="images/SmallNovelties.png" class="GiftCorner-image">
+                        <h3 class="name">Small Novelties</h3>
+                        <p class="text">A curated collection of cute stationery, pastel scrunchies, and satisfying squishies. Tiny bits of joy to brighten up your desk space.</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="About-Section" id="about">
+            <h2 class="section-title">About Us</h2>
+            <div class="section-content">
+                <div class="about-hsc">
+                    <h3 class="hsc-title">Hidden Shelf Café</h3>
+                    <p class="hsc-description">
+                        The Hidden Shelf Café is a cozy and peaceful café that offers quality coffee, refreshing drinks, delicious food, and a comfortable place to relax. 
+                        Designed for students, families, friends, and professionals, our café features a book corner, private study/work rooms, a mini gift corner, and free Wi-Fi. 
+                        More than just a café, The Hidden Shelf Café provides a warm and welcoming space where people can study, work, connect, and create meaningful memories.
+                    </p>
+                </div>
+
+
+                <div class="slider-container swiper">
+                    <div class="slider-wrapper">
+                        <ul class="members-list swiper-wrapper">
+
+                            <li class="members swiper-slide">
+                                <img src="images/Barista.jpg" class="user-image">
+                                <h2 class="members-role">Barista</h2>
+                                <h3 class="name">Krisley Kaye</h3>
+                                <i class="RoleMessage">" i pick being barista because its really my dream to build my own café and make some different beverages and snacks. I dont have any experience yet pero since i love matcha and i always go to a lot of cafés nao-observe ko nadin kung paano nama-manage ng isang barista ang work nya, and kung paano nila ginagawa ung mga orders ng customers nila. yun lang po!🫶🏻"</i>
+                            </li>
+
+                            <li class="members swiper-slide">
+                                <img src="images/MarketingOfficer.jpg" class="user-image">
+                                <h2 class="members-role">Marketing Officer</h2>
+                                <h3 class="name">Czarina Kareel</h3>
+                                <i class="RoleMessage">"Empty"</i>
+                            </li>
+
+                            <li class="members swiper-slide">
+                                <img src="images/InventoryOfficer.jpg" class="user-image">
+                                <h2 class="members-role">Inventory Officer</h2>
+                                <h3 class="name">Johann Cedric</h3>
+                                <i class="RoleMessage">"I have experience in organizing and monitoring supplies, keeping records, and making sure that materials are properly accounted for. I can help maintain an organized inventory system by recording the quantity of ingredients received, used, and remaining. I am also capable of checking supplies regularly to prevent shortages, overstocking, and unnecessary waste."</i>
+                            </li>
+
+                            <li class="members swiper-slide">
+                                <img src="images/GeneralManager.jpg" class="user-image">
+                                <h2 class="members-role">General Manager</h2>
+                                <h3 class="name">Zhalanie Balagao</h3>
+                                <i class="RoleMessage">"Empty"</i>
+                            </li>
+
+                            <li class="members swiper-slide">
+                                <img src="images/ProductionHead.jpg" class="user-image">
+                                <h2 class="members-role">Production Head</h2>
+                                <h3 class="name">Yuri Dinoy</h3>
+                                <i class="RoleMessage">"I LOVE YURI!! MMMMM GL"</i>
+                            </li>
+
+                            <li class="members swiper-slide">
+                                <img src="images/KitchenPreparationStaff.jpg" class="user-image">
+                                <h2 class="members-role">Kitchen/Preparation Staff</h2>
+                                <h3 class="name">Frenchesca Orias</h3>
+                                <i class="RoleMessage">"Empty"</i>
+                            </li>
+
+                            <li class="members swiper-slide">
+                                <img src="images/ServiceStaff.jpg" class="user-image">
+                                <h2 class="members-role">Service Staff</h2>
+                                <h3 class="name">Sean Basti</h3>
+                                <i class="RoleMessage">"Empty"</i>
+                            </li>
+
+                            <li class="members swiper-slide">
+                                <img src="images/FinanceOfficer.jpg" class="user-image">
+                                <h2 class="members-role">Finance Officer</h2>
+                                <h3 class="name">Jahaziel Mance</h3>
+                                <i class="RoleMessage">"Empty"</i>
+                            </li>
+
+                            <li class="members swiper-slide">
+                                <img src="images/cashier.jpg" class="user-image">
+                                <h2 class="members-role">Cashier</h2>
+                                <h3 class="name">Twister Nacional</h3>
+                                <i class="RoleMessage">"I've played one of those simulator games that you have to manage your store, after playing once i feel like my skills on being a cashier is good enough."</i>
+                            </li>
+
+                        </ul>
+
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-slide-button swiper-button-prev"></div>
+                        <div class="swiper-slide-button swiper-button-next"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-section" id="contacts">
+            <h2 class="section-title">Contacts</h2>
+            <div class="section-content">
+                <ul class="contact-info-list">
+                    <li class="contact-info">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p>lower session Road, Baguio city</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-solid fa-phone"></i>
+                        <p>0912-345-6789</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-brands fa-facebook"></i>
+                        <p>THE HIDDEN SHELF CAFE</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-brands fa-square-instagram"></i>
+                        <p>@THEHIDDENSHELFCAFE</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-solid fa-envelope"></i>
+                        <p>thehiddenshelfcafe@gmail.com</p>
+                    </li>
+
+                </ul>
+            </div>
+        </section>
+
+
+        <footer class="footer-section">
+            <div class="section-content">
+                <div class="social-link-list">
+                    <a href="#" class="social-link">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="#" class="social-link">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="#" class="social-link">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
+                </div>
+                <p class="trademark-text">HIDDEN SHELF CAFE™</p>
+                <p class="policy-text">
+                    <a href="#" class="policy-link">
+                        Privacy Policy
+                    </a>
+                </p>
+
+                <i class="Site-Credit">Site built by Yemi Miyuki</i>
+            </div>
+        </footer>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
