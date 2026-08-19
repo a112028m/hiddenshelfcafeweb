@@ -585,6 +585,6 @@ header .navbar {
     }
 
     .contact-section .section-content .contact-info:hover {
-        transform: scale(1.05);
+        transform: scale(1.01);
     }
 }
